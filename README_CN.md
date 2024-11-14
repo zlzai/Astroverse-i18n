@@ -55,7 +55,7 @@ astroVerse-i18n 特别适合那些希望通过融合生动视觉效果和引人�
 - [Preline UI](https://preline.co/)
 - [astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)
 
-1. Fork 或使用此 [模板](https://github.com/isooosi/astroverse-i18n)
+1. Fork 或使用此 [模板](https://github.com/inotelab/astroverse-i18n)
 
 2. 安装依赖：
 
@@ -90,7 +90,7 @@ pnpm run dev
 
 点击下方按钮，在 Vercel 上开始部署你的项目：
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/isooosi/astroverse-i18n)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/inotelab/astroverse-i18n)
 
 ## ✨ 加入与贡献
 

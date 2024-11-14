@@ -10,15 +10,15 @@ const constants = getConstants(currentLocale);
 
 const siteUrl = Astro.site
   ? `${Astro.site.toString().replace(/\/?$/, "/")}`
-  : "https://idimi.com/";
+  : "https://inote.xyz/";
 const siteName = constants.SITE_TITLE;
 const organizationName = `${constants.SITE_TITLE} Lab`;
 const logoPath = import.meta.env.LOGO_PATH || "/favicon.ico";
 const logoUrl = new URL(logoPath, siteUrl).toString();
 
 const socialLinks = [
-  import.meta.env.TWITTER_URL || "https://twitter.com/iAstroverselab",
-  import.meta.env.GITHUB_URL || "https://github.com/isooosi",
+  import.meta.env.TWITTER_URL || "https://twitter.com/inotelab",
+  import.meta.env.GITHUB_URL || "https://github.com/inotelab",
 ];
 
 const siteDescription = constants.SITE_DESCRIPTION;
@@ -80,7 +80,7 @@ const breadcrumbs: Array<{
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "Customer Service",
-      email: "hi@mail.idimi.com",
+      email: "hi@inote.xyz",
       availableLanguage: [
         "Chinese",
         "English",
