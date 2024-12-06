@@ -77,7 +77,7 @@ importers:
         version: 1.2.0
       '@iconify-json/material-symbols':
         specifier: ^1.2.0
-        version: 1.2.6
+        version: 1.2.8
       '@iconify-json/mdi':
         specifier: ^1.2.0
         version: 1.2.1
@@ -511,8 +511,8 @@ packages:
   '@iconify-json/flat-color-icons@1.2.0':
     resolution: {integrity: sha512-CluocFRgwnVsjfLbHnoaToSJs8II6dGDNvFu+uIMz8WvgMDwNZASFJdS2UT4mU8aG0MWl2GyLcKaFjQR6HeZSA==}
 
-  '@iconify-json/material-symbols@1.2.6':
-    resolution: {integrity: sha512-eXqnY9DY8B/7Uw/INwhpN8gfBrC3BBaWBx7T/Yf4oHxQRiVto4qSlDF3MD46q7vqp4GjtyQW1IkZvhgWHn0LTA==}
+  '@iconify-json/material-symbols@1.2.8':
+    resolution: {integrity: sha512-X89QwN5eRMVHEfm5HWMYCZxkUqUPQM2TNv7D8rIPUn2jTzDmgjgiTMomn3DOXWyh1/geHPnTt1bTSFcUXlpGbw==}
 
   '@iconify-json/mdi@1.2.1':
     resolution: {integrity: sha512-dSkQU78gsZV6Yxnq78+LuX7jzeFC/5NAmz7O3rh558GimGFcwMVY/OtqRowIzjqJBmMmWZft7wkFV4TrwRXjlg==}
@@ -3206,7 +3206,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/material-symbols@1.2.6':
+  '@iconify-json/material-symbols@1.2.8':
     dependencies:
       '@iconify/types': 2.0.0
 
