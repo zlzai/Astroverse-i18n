@@ -54,8 +54,8 @@ importers:
         specifier: ^1.1.0
         version: 1.2.0
       preline:
-        specifier: ^2.3.0
-        version: 2.5.1
+        specifier: ^2.6.0
+        version: 2.6.0
       rehype-external-links:
         specifier: ^3.0.0
         version: 3.0.0
@@ -2137,8 +2137,8 @@ packages:
     resolution: {integrity: sha512-gYBeFTZLu055D8Vv3cSPox/0iTPtkzxpLroSYYA7WXgRi31WCJ51Uyl8ZiPeUUjyvs2MBzK+S8v9JVUgHU/Sqw==}
     engines: {node: '>=18.12'}
 
-  preline@2.5.1:
-    resolution: {integrity: sha512-fEXOsz0xLfTm5sJmNanourrMjwjcgGtaVNg8Pt6GzUbZ/oXHIdcR94LBdeE0Ea0pBPFOOHzEL5LQwSbAvCJEfw==}
+  preline@2.6.0:
+    resolution: {integrity: sha512-8O9ayfWgicM8w64k6HIXoRafVqI3xsyFhlT/OCR99USR5izlMGvCunAW+HsTtCwWI0V04m96eXcYy8ElYkDqNg==}
 
   prettier-plugin-astro@0.14.1:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
@@ -5319,7 +5319,7 @@ snapshots:
       find-yarn-workspace-root2: 1.2.16
       which-pm: 3.0.0
 
-  preline@2.5.1:
+  preline@2.6.0:
     dependencies:
       '@popperjs/core': 2.11.8
 
