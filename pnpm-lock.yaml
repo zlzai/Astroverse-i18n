@@ -37,7 +37,7 @@ importers:
         version: 1.1.4
       astro-pagefind:
         specifier: ^1.5.0
-        version: 1.6.0(astro@5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.26.0)(typescript@5.7.2)(yaml@2.6.1))
+        version: 1.7.0(astro@5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.26.0)(typescript@5.7.2)(yaml@2.6.1))
       astro-seo:
         specifier: ^0.8.4
         version: 0.8.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)
@@ -974,10 +974,10 @@ packages:
   astro-icon@1.1.4:
     resolution: {integrity: sha512-sMLkQaevIQLv38WBzb/RDbsmxhg5+X+KcNmpTi9cE6MLurNWU1MPnlO87d9Vwg4HxTenKpDlYp81A3syXFW/gw==}
 
-  astro-pagefind@1.6.0:
-    resolution: {integrity: sha512-U/WuE0ktkZkoFJf6yopWO4DjIJ3+wrnopE2L3kUYiyqNTJpqmp13bFLR8gir6B+KzQ5dsXQtJZYTQtKJg1FxIA==}
+  astro-pagefind@1.7.0:
+    resolution: {integrity: sha512-PNcJ2cVIEXsK0toTyJa792uieRQjjXZptPn+0QrMjM6ONHxxiLLeQ0ZtAds/tERlIMcMUyAnVCKhuR0se4gDUw==}
     peerDependencies:
-      astro: ^2.0.4 || ^3.0.0 || ^4.0.0
+      astro: ^2.0.4 || ^3 || ^4 || ^5
 
   astro-seo-schema@4.0.3:
     resolution: {integrity: sha512-K7fhkAhAkgNfWpiQRCa7K1/VBI+OatmzQjxTlPSKIoGSrXLOziPRImdXkWgFJCGhOKRVfAKdroqt1a1CdEFBPQ==}
@@ -2319,9 +2319,9 @@ packages:
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
 
-  sirv@2.0.4:
-    resolution: {integrity: sha512-94Bdh3cC2PKrbgSOUqTiGPWVZeSiXfKOVZNJniWoqrWrRkB1CJzBU3NEbiTsPcYy1lDsANA/THzS+9WBiy5nfQ==}
-    engines: {node: '>= 10'}
+  sirv@3.0.0:
+    resolution: {integrity: sha512-BPwJGUeDaDCHihkORDchNyyTvWFhcusy1XMmhEVTQTwGeybFbp8YEmB+njbPnth1FibULBSBVwCQni25XlCUDg==}
+    engines: {node: '>=18'}
 
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -3615,12 +3615,12 @@ snapshots:
       - debug
       - supports-color
 
-  astro-pagefind@1.6.0(astro@5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.26.0)(typescript@5.7.2)(yaml@2.6.1)):
+  astro-pagefind@1.7.0(astro@5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.26.0)(typescript@5.7.2)(yaml@2.6.1)):
     dependencies:
       '@pagefind/default-ui': 1.2.0
       astro: 5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.26.0)(typescript@5.7.2)(yaml@2.6.1)
       pagefind: 1.2.0
-      sirv: 2.0.4
+      sirv: 3.0.0
 
   astro-seo-schema@4.0.3(astro@5.0.3(@types/node@22.10.1)(jiti@1.21.6)(rollup@4.26.0)(typescript@5.7.2)(yaml@2.6.1))(schema-dts@1.1.2(typescript@5.7.2)):
     dependencies:
@@ -5474,7 +5474,7 @@ snapshots:
     dependencies:
       is-arrayish: 0.3.2
 
-  sirv@2.0.4:
+  sirv@3.0.0:
     dependencies:
       '@polka/url': 1.0.0-next.28
       mrmime: 2.0.0
