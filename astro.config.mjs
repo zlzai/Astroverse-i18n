@@ -10,7 +10,7 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://verse-i18n.vercel.app",
-  trailingSlash: "never",
+  trailingSlash: "always",
   prefetch: true,
   i18n: {
     defaultLocale: "en",
