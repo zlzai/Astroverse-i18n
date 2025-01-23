@@ -28,7 +28,7 @@
     "rehype-external-links": "^3.0.0",
     "schema-dts": "^1.1.2",
     "sharp": "^0.33.4",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "@iconify-json/flagpack": "^1.1.14",
